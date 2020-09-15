@@ -1,5 +1,4 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+
 
 html, body{
     height: 100vh;
@@ -13,16 +12,18 @@ h3, b{
     color: rgb(66, 66, 66);
 }
 .head{
-    font-size: 24px;
+    font-size: 30px;
     text-align: center;
+    line-height: 1.6;
 }
 
 .heading{
     text-align: center;
-    font-size: 12px;
-    width: 40%;
+    font-size: 16px;
+    width: 30%;
     margin: auto;
-    padding-top: 30px;
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
 
 .content {
@@ -74,7 +75,13 @@ h3, b{
 img{
     padding-left: 80%;
 }
-
+.attribution { 
+    font-size: 13px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
 @media only screen and (max-width:900px){
    
     .content {
