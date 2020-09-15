@@ -12,15 +12,15 @@ h3, b{
     color: rgb(66, 66, 66);
 }
 .head{
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
     line-height: 1.6;
 }
 
 .heading{
     text-align: center;
-    font-size: 16px;
-    width: 30%;
+    font-size: 20px;
+    width: 60%;
     margin: auto;
     padding-top: 60px;
     padding-bottom: 30px;
@@ -34,8 +34,8 @@ h3, b{
 }
 
 .left, .up, .down, .right{
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 350px;
     background-color: white;
     margin: 20px;
     border-radius: 10px;
