@@ -1,5 +1,5 @@
 
-
+@media only screen and (max-width:1440px){
 html, body{
     height: 100vh;
     width: 100vw;
@@ -82,7 +82,8 @@ img{
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
-@media only screen and (max-width:900px){
+}
+@media only screen and (max-width:375px){
    
     .content {
         display: flex;
@@ -95,5 +96,9 @@ img{
     .right{
         margin-top: 20px;
     }
+   .left, .up, .down, .right{
+    height: 100px;
+    width: 200px;
    
+}
 }
