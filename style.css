@@ -101,4 +101,7 @@ img{
     width: 200px;
    
 }
+    img{
+    padding-left: 80px;
+}
 }
